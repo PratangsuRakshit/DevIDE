@@ -6,7 +6,7 @@ A LightWeight IDE made with Tkinter and python.
 
 
 
-I just made it for fun
+I just made it for fun :)
 
 
 ## Contributing
