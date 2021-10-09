@@ -12,6 +12,7 @@ I just made it for fun :)
 ## Contributing
 
 Contributions are always welcome!
+Please contribute :/
 
 
   
