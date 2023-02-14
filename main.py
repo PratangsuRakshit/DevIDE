@@ -19,7 +19,7 @@ vs.pack(side=RIGHT, fill='y')
 hs=Scrollbar(compiler, orient='horizontal')
 hs.pack(side=BOTTOM, fill='x')
 
-editor = Text(undo=True,bg="#00000b",fg="white",insertbackground="white", xscrollcommand=hs.set)
+editor = Text(undo=True,width=100,bg="#00000b",fg="white",insertbackground="white", xscrollcommand=hs.set)
 vs.config(command=editor.yview)
 hs.config(command=editor.xview)
 editor.pack()
