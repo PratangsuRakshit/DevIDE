@@ -10,12 +10,20 @@ import os
 
 compiler = Tk()
 compiler.title('DevIDE')
+compiler.iconbitmap("dev.ico")
+compiler.configure(bg="#00000f")
 file_path = ''
 
-editor = Text(undo=True)
+vs=Scrollbar(compiler, orient='vertical') 
+vs.pack(side=RIGHT, fill='y')
+
+editor = Text(undo=True,bg="#00000b",fg="white",insertbackground="white",yscrollcommand=vs.set)
+vs.config(command=editor.yview)
+
+
 editor.pack()
 
-code_output = Text(height=10)
+code_output = Text(height=8,bg="#00000d",fg="white",insertbackground="white")
 code_output.pack()
 
 install_buttun = Text(height=1)
