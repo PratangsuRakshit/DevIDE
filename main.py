@@ -16,7 +16,7 @@ file_path = ''
 vs=Scrollbar(compiler, orient='vertical') 
 vs.pack(side=RIGHT, fill='y')
 
-editor = Text(undo=True,bg="#00000b",fg="white",insertbackground="white",yscrollcommand=vs.set)
+editor = Text(undo=True,bg="#00000b",fg="white",insertbackground="white",yscrollcommand=vs.set,font="Times")
 vs.config(command=editor.yview)
 
 
