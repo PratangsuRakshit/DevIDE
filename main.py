@@ -13,12 +13,11 @@ compiler.title('DevIDE')
 compiler.configure(bg="#00000f")
 file_path = ''
 
-vs=Scrollbar(compiler, orient='vertical')
-vs.pack(side=RIGHT, fill='y')
 
 
-editor = Text(undo=True,bg="#00000b",fg="white",insertbackground="white", yscrollcommand=ys.set)
-vs.config(command=editor.yview)
+
+editor = Text(undo=True,bg="#00000b",fg="white",insertbackground="white")
+
 
 editor.pack()
 
