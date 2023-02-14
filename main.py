@@ -10,6 +10,7 @@ import os
 
 compiler = Tk()
 compiler.title('DevIDE')
+compiler.geometry("10+10")
 compiler.configure(bg="#00000f")
 file_path = ''
 
