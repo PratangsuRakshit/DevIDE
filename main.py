@@ -10,7 +10,7 @@ import os
 
 compiler = Tk()
 compiler.title('DevIDE')
-
+compiler.iconbitmap("dev.ico")
 compiler.configure(bg="#00000f")
 file_path = ''
 
