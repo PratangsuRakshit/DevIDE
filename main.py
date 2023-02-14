@@ -22,7 +22,7 @@ vs.config(command=editor.yview)
 
 editor.pack()
 
-code_output = Text(height=11,bg="#00000d",fg="white",insertbackground="white")
+code_output = Text(height=11,bg="#00000d",fg="white",insertbackground="white",font="Times")
 code_output.pack()
 
 install_buttun = Text(height=1)
