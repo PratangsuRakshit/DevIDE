@@ -16,7 +16,7 @@ file_path = ''
 editor = Text(undo=True,bg="#00000b",fg="white",insertbackground="white")
 editor.pack()
 
-code_output = Text(height=10,bg="#00000d",fg="white",,insertbackground="white")
+code_output = Text(height=10,bg="#00000d",fg="white",insertbackground="white")
 code_output.pack()
 
 install_buttun = Text(height=1)
